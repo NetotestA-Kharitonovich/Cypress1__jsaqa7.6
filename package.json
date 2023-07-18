@@ -1,0 +1,19 @@
+{
+  "name": "cypress1__jsaqa7.6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "web:headed": "cypress run -b chrome --headed -C cypress.config.js",
+    "web:headless": "cypress run -b electron --headless -C cypress.config.js",
+    "phone:headed": "cypress run -b chrome --headed -C cypress2.config.js",
+    "phone:headless": "cypress run -b electron --headless -C cypress2.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.1"
+  },
+  "description": ""
+}
